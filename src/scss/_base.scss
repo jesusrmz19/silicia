@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Kannada_MN';
+  src: url('../fonts/Kannada_MN.ttc');
+}
+
+$melon: #cf7246;
+$mainfont: 'Kannada_MN';
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $melon;
+  justify-content: center;
+  align-items: center;
+  p {
+    margin-top: 15px;
+    font-family: $mainfont;
+    font-size: 65px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+}
