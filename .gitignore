@@ -1,4 +1,6 @@
 .cache
+.netlify
 base
 dist
 node_modules
+

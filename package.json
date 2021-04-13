@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist"
+    "build": "parcel build index.html --out-dir ./dist"
   },
   "author": "Jesus Ramirez",
   "license": "ISC"
